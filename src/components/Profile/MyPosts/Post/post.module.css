@@ -1,0 +1,27 @@
+.post {
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+.contentForFlex {
+   display: flex;
+   align-items: center;
+}
+
+.post img {
+   width: 45px;
+}
+
+.postBody {
+   color: #363636;
+   margin-left: 15px;
+}
+
+.like {
+   color: rgb(124, 126, 255);
+   float: right;
+   margin-left: 60px;
+}

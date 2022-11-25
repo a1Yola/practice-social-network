@@ -1,0 +1,24 @@
+.users {
+   padding: 15px;
+}
+
+.userPhoto {
+   height: 90px;
+   width: 90px;
+}
+
+.pages {
+   width: 100%;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.pages span {
+   margin: 0 .3rem;
+   cursor: pointer;
+}
+
+.selectedPage {
+   font-weight: bold;
+}

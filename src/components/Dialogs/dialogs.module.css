@@ -1,0 +1,23 @@
+.dialogs {
+   display: grid;
+   grid-template-areas:
+      'item messages'
+      'item formMsg';
+   grid-template-columns: 2fr 5fr;
+   grid-template-rows: 1fr 3rem;
+   height: 100%;
+}
+
+.dialogsItems {
+   grid-area: item;
+   padding: 15px;
+   border-right: 1px solid #fff;
+   max-width: 12rem;
+}
+
+.messages {
+   grid-area: messages;
+   padding: 15px 15px 0 15px;
+   border-left: 1px solid #555555;
+   overflow-y: scroll;
+}

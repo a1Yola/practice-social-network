@@ -1,0 +1,44 @@
+.loginFormContainer {
+   max-width: min-content;
+}
+
+.inputCheckbox {
+   margin: 0;
+   margin-bottom: 1rem;
+   display: flex;
+   align-items: flex-end;
+}
+
+.inputCheckbox input {
+   margin-right: .5rem;
+}
+
+.formButton {
+   margin-bottom: 1rem;
+}
+
+.formButton button {
+   padding: 5px;
+   width: 50%;
+   background-color: #ffde4d;
+   border: 1px solid gray;
+   border-radius: 5px;
+}
+
+.formButton button:hover {
+   background-color: #f8e179;
+   border: 1px solid #aaaaaa;
+   cursor: pointer;
+   color: #aaaaaa;
+}
+
+.error {
+   text-align: center;
+   border: 1px solid red;
+   border-radius: 5px;
+   padding: 5px;
+}
+
+.error span {
+   color: red;
+}

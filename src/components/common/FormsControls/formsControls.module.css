@@ -1,0 +1,23 @@
+.formControl {
+   margin-bottom: 1rem;
+}
+
+.formControl input,
+.formControl textarea {
+   margin: 0;
+   padding: 8px;
+   border-radius: 5px;
+   border: 1px solid;
+   outline: 0;
+   outline-offset: 0;
+}
+
+.formControl.error input,
+.formControl.error textarea {
+   border: 1px solid #ff0000;
+}
+
+.formControl.error span {
+   color: #ff0000;
+   margin: 0;
+}

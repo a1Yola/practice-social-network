@@ -1,0 +1,18 @@
+.backgroundImage {
+  background-image: url(https://www.adobe.com/express/create/media_1f78a60f54d4768f60186918e91c3a695f221f849.png?width=2000&format=webply&optimize=medium);
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.profileDescription {
+  padding: 15px;
+  display: flex;
+}
+
+.userPhoto {
+  width: 120px;
+  border-radius: 5px;
+}
